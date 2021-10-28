@@ -46,3 +46,12 @@ code {
   width: 100%;
   display: block;
 }
+
+.form-container {
+  padding: 30px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
