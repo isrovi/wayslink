@@ -112,3 +112,16 @@ code {
   text-align: center;
   justify-content: space-between;
 }
+
+.icon-links-counter {
+  height: 30px;
+  width: 35px;
+  background: #ff9f00;
+  color: white;
+  border-radius: 42%;
+  text-align: center;
+}
+
+.input-search {
+  width: 70%;
+}
