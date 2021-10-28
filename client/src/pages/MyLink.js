@@ -19,12 +19,12 @@ export default function MyLink() {
             <Sidebar />
           </Col>
           <Col md={9}>
-            <Navbar bg="light">
+            <Navbar bg="light" className="nav-height">
               <Container>
                 <Navbar.Brand className="fw-bold">My Links</Navbar.Brand>
               </Container>
             </Navbar>
-            <div className="vh-100 p-4" style={{ background: "#E5E5E5" }}>
+            <div className="vh-100 p-5" style={{ background: "#E5E5E5" }}>
               <div className="d-flex flex-row justify-content-between align-items-center">
                 <h5>All Links</h5>
                 <div className="icon-links-counter">
@@ -32,7 +32,7 @@ export default function MyLink() {
                 </div>
                 <div className="input-search px-3">
                   <span>
-                    <img src={IconFind} />
+                    <img src={IconFind} alt="icon" />
                   </span>
                   <input
                     style={{

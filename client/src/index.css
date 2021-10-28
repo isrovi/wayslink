@@ -125,3 +125,28 @@ code {
 .input-search {
   width: 70%;
 }
+
+.nav-height {
+  height: 93px;
+}
+
+.profile-container {
+  background: white;
+  height: 40%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.input-profile {
+  border: none;
+  height: 50px;
+  color: black;
+  font-size: 24px;
+}
+
+.btn-profile {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px !important;
+}

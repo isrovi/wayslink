@@ -1,6 +1,5 @@
 import React from "react";
 // CSS Bootstrap
-import { Container, Row, Col } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 

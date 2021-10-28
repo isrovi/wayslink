@@ -18,7 +18,7 @@ export default function Template() {
             <Sidebar />
           </Col>
           <Col md={9}>
-            <Navbar bg="light">
+            <Navbar bg="light" className="nav-height">
               <Container>
                 <Navbar.Brand className="fw-bold">Template</Navbar.Brand>
               </Container>

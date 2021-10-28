@@ -6,6 +6,7 @@ import Template from "./pages/Template";
 import AddLink from "./pages/AddLink";
 import PreviewLink from "./pages/PreviewLink";
 import MyLink from "./pages/MyLink";
+import MyAccount from "./pages/MyAccount";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/add-link" component={AddLink}></Route>
         <Route path="/preview-link" component={PreviewLink}></Route>
         <Route path="/my-link" component={MyLink}></Route>
+        <Route path="/my-account" component={MyAccount}></Route>
       </Switch>
     </Router>
   );

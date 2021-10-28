@@ -22,7 +22,7 @@ export default function AddLink() {
               </Container>
             </Navbar>
             <Row
-              className="d-flex vw-100 vh-100 py-5 px-4"
+              className="d-flex vw-100 vh-100 p-5"
               style={{ background: "#E5E5E5" }}
             >
               <Col md={6}>
