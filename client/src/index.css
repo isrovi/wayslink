@@ -87,3 +87,28 @@ code {
   height: 200px;
   border-radius: 10px;
 }
+
+.logo-brand {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.icon-link {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  background: white;
+}
+
+.links-redirect {
+  background: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
