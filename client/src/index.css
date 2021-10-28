@@ -60,3 +60,30 @@ code {
   font-size: 24px;
   color: black;
 }
+
+.link-card {
+  background: white;
+  height: 500px;
+  width: 90%;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.btn-upload {
+  background: #ff9f00;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.input-title {
+  border-color: transparent;
+  border: 0px;
+}
+
+.link-container {
+  background: #ececec;
+  height: 200px;
+  border-radius: 10px;
+}

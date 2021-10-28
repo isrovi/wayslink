@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/img/logo.svg";
 import CubesIcon from "../assets/img/icon-cubes.svg";
 import UserIcon from "../assets/img/icon-user.svg";
-import LinkIcon from "../assets/img/icon-link.svg";
+import ChainIcon from "../assets/img/icon-chain.svg";
 import LogoutIcon from "../assets/img/icon-logout.svg";
 
 function Sidebar(props) {
@@ -21,26 +21,26 @@ function Sidebar(props) {
           <div className="mt-5">
             <Link className="text-decoration-none sidebar-text">
               <img src={CubesIcon} alt="" />
-              <span>Template</span>
+              <span className="ps-3">Template</span>
             </Link>
           </div>
           <div className="mt-5">
             <Link className="text-decoration-none sidebar-text">
               <img src={UserIcon} alt="" />
-              <span>Profile</span>
+              <span className="ps-3">Profile</span>
             </Link>
           </div>
           <div className="mt-5">
             <Link className="text-decoration-none sidebar-text">
-              <img src={LinkIcon} alt="" />
-              <span>My Link</span>
+              <img src={ChainIcon} alt="" />
+              <span className="ps-3">My Link</span>
             </Link>
           </div>
         </div>
         <div className="pb-5 d-flex flex-column justify-content-end">
           <Link className="text-decoration-none sidebar-text">
             <img src={LogoutIcon} alt="" />
-            <span>Logout</span>
+            <span className="ps-3">Logout</span>
           </Link>
         </div>
       </div>
