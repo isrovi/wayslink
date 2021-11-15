@@ -7,9 +7,16 @@ import "./index.css";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { BrowserRouter as Router } from "react-router-dom";
+import { UserContextProvider } from "./context/userContext";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserContextProvider>
+      <Router>
+        <App />
+      </Router>
+    </UserContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

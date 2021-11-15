@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Container, Row, Col, Navbar } from "react-bootstrap";
 // Components
 import Sidebar from "../components/Sidebar";
@@ -24,7 +24,9 @@ export default function Template() {
               </Container>
             </Navbar>
             <div className="vh-100 py-5" style={{ background: "#E5E5E5" }}>
-              <img src={Template1} alt="" />
+              <Link to="/add-link">
+                <img src={Template1} alt="" />
+              </Link>
               <img src={Template2} alt="" />
               <img src={Template3} alt="" />
               <img src={Template4} alt="" />
